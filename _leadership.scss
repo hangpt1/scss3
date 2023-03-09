@@ -1,0 +1,49 @@
+.aboutus{
+    background-color: white;
+    .aboutus-wrap{
+        display: flex;
+        flex-direction: column;
+        .aboutus-title{
+            text-align: center;
+            margin-top: 100px;
+            h3{
+                color: $xam;
+            }
+            h2{
+                font-size: 35px;
+            }
+        }
+        .person-wrap{
+            
+            margin-top: 50px;
+            .person-main{
+                width: 80%;
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+                
+                .person{
+                    width: 25%;
+                    
+                    text-align: center;
+                    margin-left: 6%;
+                    justify-content: center;
+                    color: rgb(151, 127, 128);
+                    img{
+                        width: 100%;
+                        border-radius: 5px;
+                    }
+                    .person-position{
+                        color: rgb(215, 213, 211);
+                    }
+                    .icon{
+                        display: flex;
+                        flex-direction: row;
+                        list-style-type: none;
+
+                    }
+                }
+            }
+        }
+    }
+}

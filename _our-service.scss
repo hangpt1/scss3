@@ -1,0 +1,47 @@
+.our-service{
+    background-color: aliceblue;
+    height: 600px;
+    .our-service-main{
+        display: flex;
+        flex-direction: column;
+        .text-center{
+            width: 100%;
+            text-align: center;
+            margin-top: 70px;
+            h3{
+                color: $xam;
+                font-size: 20px;
+            }
+            h2{
+                font-size: 40px;
+            }
+        }
+        .our-service-items{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .items{
+                width: 30%;
+                display: flex;
+                flex-direction: row;
+                .oo{
+                    color: $orange;
+                    font-size: 30px;
+                    margin-right: 30px;
+                }
+                .text{
+                    color: $xam;
+                    button{
+                        color: $orange;
+                        background-color: transparent;
+                        border: none;
+                        &:hover{
+                            color: rgb(135, 76, 4);
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

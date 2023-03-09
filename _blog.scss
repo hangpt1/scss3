@@ -1,0 +1,60 @@
+.blog{
+    background-color: white;
+    .blog-wrap{
+        display: flex;
+        flex-direction: column;
+        .blog-title{
+            text-align: center;
+            margin-top: 100px;
+            h3{
+                color: $xam;
+            }
+            h2{
+                font-size: 35px;
+            }
+        }
+        .person-wrap{
+            
+            margin-top: 50px;
+            .person-main{
+                width: 80%;
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+                .person{
+                    width: 25%;
+                    margin-left: 6%;
+                    justify-content: center;
+                    img{
+                        width: 100%;
+                        border-radius: 5px;
+                    }
+                    h2{
+                        a{
+                            text-decoration: none;
+                            font-size: 20px;
+                        }
+                    }
+                    .person-position{
+                        color: rgb(215, 213, 211);
+                        .button{
+                            color: $orange;
+                            background-color: transparent;
+                            border: none;
+                            &:hover{
+                                color: rgb(135, 76, 4);
+                        }
+
+                        }
+                    }
+                    .icon{
+                        display: flex;
+                        flex-direction: row;
+                        list-style-type: none;
+
+                    }
+                }
+            }
+        }
+    }
+}

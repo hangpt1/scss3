@@ -1,0 +1,33 @@
+.people-say{
+    height: 800px;
+    .text-center{
+        text-align: center;
+        margin-top: 50px;
+        h3{
+            font-size: 20px;
+        }
+        h2{
+            font-size: 40px;
+        }
+    }
+    .testimonial-wrap{
+        width: 60%;
+        margin: auto;
+        .testimonial{
+            margin-top: 50px;
+            text-align: center;
+            figure{
+                img{
+                    width: 30%;
+                    border-radius: 50%;
+                }
+                
+            }
+        h5{
+            color: $xam;
+            font-size: 25px;
+        }
+        }
+    }
+
+}

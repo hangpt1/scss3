@@ -1,0 +1,636 @@
+.contact {
+  height: 70px;
+  background-color: rgb(250, 248, 248);
+  display: flex;
+  flex-direction: row;
+}
+.contact .text-left {
+  height: 70px;
+  width: 30%;
+}
+.contact .text-left .social-media {
+  display: flex;
+  list-style-type: none;
+  font-size: 30px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.contact .text-left .social-media li {
+  margin-left: 20px;
+}
+.contact .phone_email {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.contact .phone_email p {
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.contact .phone_email p span {
+  color: rgb(255, 94, 0);
+  font-size: 10px;
+}
+.contact .phone_email p a {
+  text-decoration: none;
+}
+
+header { /* Safari */
+  position: sticky;
+  top: 0;
+  box-shadow: 1px 2px 5px 3px #f1efef;
+  height: 80px;
+  background-color: white;
+}
+header .site-navbar {
+  display: flex;
+  flex-direction: row;
+}
+header .site-navbar .selling {
+  width: 35%;
+  text-align: center;
+}
+header .site-navbar .selling h1 {
+  font-size: 45px;
+}
+header .site-navbar .selling a {
+  text-decoration: none;
+  color: black;
+}
+header .site-navbar .menu {
+  width: 50%;
+}
+header .site-navbar .menu .site-menu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+header .site-navbar .menu .site-menu .home {
+  color: rgb(255, 94, 0);
+}
+header .site-navbar .menu .site-menu li {
+  list-style-type: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 35px;
+}
+header .site-navbar .menu .site-menu li a {
+  text-decoration: none;
+}
+
+.shop_with_us {
+  background: rgba(0, 0, 0, 0.33) url("./images/hero_2.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  width: 100%;
+  height: 700px;
+}
+.shop_with_us .content {
+  padding: 15%;
+}
+.shop_with_us .content h1 {
+  font-size: 80px;
+  color: white;
+}
+.shop_with_us .content p {
+  color: white;
+  width: 60%;
+  font-size: 20px;
+}
+.shop_with_us .content .btn_shop_now1 {
+  width: 180px;
+  height: 60px;
+  border: 2.5px solid white;
+  transition-duration: 0.1s;
+  color: #f1efef;
+  background-color: transparent;
+}
+.shop_with_us .content .btn_shop_now1:hover {
+  background-color: #f1efef;
+  color: black;
+}
+.shop_with_us .content .btn_shop_now2 {
+  width: 180px;
+  height: 60px;
+  border: 2.5px solid white;
+  transition-duration: 0.1s;
+  color: black;
+  background-color: #f1efef;
+}
+.shop_with_us .content .btn_shop_now2:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.our_products {
+  background-color: white;
+}
+.our_products .our_products_main {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.our_products .our_products_main .title_our_products {
+  text-align: center;
+  word-spacing: 0.1px;
+  width: 40%;
+  margin: auto;
+}
+.our_products .our_products_main .title_our_products h3 {
+  color: rgb(125, 121, 121);
+}
+.our_products .our_products_main .title_our_products h2 {
+  font-size: 40px;
+}
+.our_products .our_products_main .title_our_products p {
+  color: rgb(125, 121, 121);
+}
+.our_products .our_products_main .sp-wrap {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.our_products .our_products_main .sp-wrap .sp figure img {
+  width: 100%;
+}
+.our_products .our_products_main .sp-wrap .sp .sp_main {
+  text-align: center;
+}
+.our_products .our_products_main .sp-wrap .sp .sp_main h3 a {
+  text-decoration: none;
+}
+.our_products .our_products_main .sp-wrap .sp .sp_main p {
+  text-decoration: none;
+  color: rgb(125, 121, 121);
+  font-size: 14px;
+}
+.our_products .our_products_main .sp-wrap .sp .sp_main p span {
+  color: rgb(255, 94, 0);
+}
+.our_products .our_products_main .sp-wrap .sp .sp_main p span:hover {
+  color: rgb(40, 30, 219);
+}
+.our_products .our_products_main .sp-wrap .sp .sp_main .button1 .cart {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  width: 80px;
+  height: 35px;
+}
+.our_products .our_products_main .sp-wrap .sp .sp_main .button1 .cart:hover {
+  background-color: white;
+  color: black;
+}
+.our_products .our_products_main .sp-wrap .sp .sp_main .button1 .view {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  width: 80px;
+  height: 35px;
+}
+.our_products .our_products_main .sp-wrap .sp .sp_main .button1 .view:hover {
+  background-color: black;
+  color: white;
+}
+
+.form-wrap {
+  background: url("./images/hero_2.jpg") rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  height: 500px;
+}
+.form-wrap .form {
+  display: flex;
+  flex-direction: row;
+}
+.form-wrap .form .main-form {
+  width: 55%;
+  margin-left: 20%;
+  color: white;
+  margin-top: 10%;
+  text-align: center;
+}
+.form-wrap .form .main-form .text {
+  border: 2.5px solid white;
+  background-color: transparent;
+  height: 50px;
+  width: 600px;
+  color: aliceblue;
+}
+.form-wrap .form .main-form .submit {
+  border: 2.5px solid white;
+  background-color: transparent;
+  height: 50px;
+  width: 150px;
+  color: aliceblue;
+}
+
+.awesome-products-wrap {
+  background-color: rgb(242, 243, 245);
+  height: 1600px;
+}
+.awesome-products-wrap .awesome-products {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.awesome-products-wrap .awesome-products .awesome-products-main {
+  text-align: center;
+  word-spacing: 0.1px;
+  width: 40%;
+  margin: auto;
+}
+.awesome-products-wrap .awesome-products .awesome-products-main h3 {
+  color: rgb(125, 121, 121);
+}
+.awesome-products-wrap .awesome-products .awesome-products-main h2 {
+  font-size: 40px;
+}
+.awesome-products-wrap .awesome-products .awesome-products-main p {
+  color: rgb(125, 121, 121);
+}
+.awesome-products-wrap .awesome-products .about-products {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.awesome-products-wrap .awesome-products .about-products .about-products-main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: auto;
+  height: 600px;
+  background-color: white;
+  padding: 4%;
+}
+.awesome-products-wrap .awesome-products .about-products .about-products-main .about-products-img img {
+  width: 400px;
+}
+.awesome-products-wrap .awesome-products .about-products .about-products-main .about-products-content {
+  width: 100%;
+  padding-left: 20px;
+}
+.awesome-products-wrap .awesome-products .about-products .about-products-main .about-products-content .number span {
+  font-size: 120px;
+  margin-left: 20px;
+  color: rgb(235, 236, 239);
+}
+.awesome-products-wrap .awesome-products .about-products .about-products-main .about-products-content .content {
+  margin-top: -160px;
+  width: 90%;
+  margin-left: 30px;
+}
+.awesome-products-wrap .awesome-products .about-products .about-products-main .about-products-content .content h3 {
+  font-size: 30px;
+}
+.awesome-products-wrap .awesome-products .about-products .about-products-main .about-products-content .content p {
+  color: rgb(125, 121, 121);
+}
+.awesome-products-wrap .awesome-products .about-products .about-products-main .about-products-content .content .button2 {
+  margin-top: 50px;
+}
+.awesome-products-wrap .awesome-products .about-products .about-products-main .about-products-content .content .button2 .vd {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.awesome-products-wrap .awesome-products .about-products .about-products-main .about-products-content .content .button2 .vd:hover {
+  background-color: black;
+  color: white;
+}
+.awesome-products-wrap .awesome-products .about-products .about-products-main .about-products-content .content .button2 .atc {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+.awesome-products-wrap .awesome-products .about-products .about-products-main .about-products-content .content .button2 .atc:hover {
+  background-color: white;
+  color: black;
+}
+
+.about-section {
+  margin-top: 100px;
+  background-color: white;
+}
+.about-section .about-section-main {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+}
+.about-section .about-section-main .about-section-img {
+  margin-left: 50px;
+}
+.about-section .about-section-main .about-section-img img {
+  width: 700px;
+  margin-top: -100px;
+}
+.about-section .about-section-main .about-section-img .experience {
+  background-color: rgb(98, 146, 130);
+  width: 400px;
+  height: 150px;
+  color: white;
+}
+.about-section .about-section-main .about-section-img .experience .year {
+  background-color: red;
+  font-size: 45px;
+}
+.about-section .about-section-main .about-section-img .experience .caption {
+  font-size: 20px;
+}
+.about-section .about-section-main .about-section-content {
+  width: 20%;
+  margin-left: 150px;
+  margin-top: 15%;
+}
+.about-section .about-section-main .about-section-content h3 {
+  color: rgb(125, 121, 121);
+  font-size: 20px;
+}
+.about-section .about-section-main .about-section-content h2 {
+  font-size: 40px;
+}
+.about-section .about-section-main .about-section-content p {
+  color: rgb(125, 121, 121);
+}
+.about-section .about-section-main .about-section-content button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  width: 120px;
+  height: 40px;
+}
+.about-section .about-section-main .about-section-content button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.aboutus {
+  background-color: white;
+}
+.aboutus .aboutus-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.aboutus .aboutus-wrap .aboutus-title {
+  text-align: center;
+  margin-top: 100px;
+}
+.aboutus .aboutus-wrap .aboutus-title h3 {
+  color: rgb(125, 121, 121);
+}
+.aboutus .aboutus-wrap .aboutus-title h2 {
+  font-size: 35px;
+}
+.aboutus .aboutus-wrap .person-wrap {
+  margin-top: 50px;
+}
+.aboutus .aboutus-wrap .person-wrap .person-main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.aboutus .aboutus-wrap .person-wrap .person-main .person {
+  width: 25%;
+  text-align: center;
+  margin-left: 6%;
+  justify-content: center;
+  color: rgb(151, 127, 128);
+}
+.aboutus .aboutus-wrap .person-wrap .person-main .person img {
+  width: 100%;
+  border-radius: 5px;
+}
+.aboutus .aboutus-wrap .person-wrap .person-main .person .person-position {
+  color: rgb(215, 213, 211);
+}
+.aboutus .aboutus-wrap .person-wrap .person-main .person .icon {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.summersale {
+  background-image: url("./images/hero_2.jpg");
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+.summersale .summersale-wrap {
+  width: 50%;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+.summersale .summersale-wrap h2 {
+  font-size: 40px;
+}
+.summersale .summersale-wrap .clock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.summersale .summersale-wrap .clock p {
+  width: 90px;
+  height: 120px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  color: rgb(125, 121, 121);
+  margin-left: 20px;
+}
+.summersale .summersale-wrap .clock p span {
+  font-size: 60px;
+  color: rgb(82, 164, 119);
+}
+.summersale .summersale-wrap button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: aliceblue;
+  width: 130px;
+  height: 50px;
+}
+.summersale .summersale-wrap button:hover {
+  background-color: white;
+  color: black;
+}
+
+.our-service {
+  background-color: aliceblue;
+  height: 600px;
+}
+.our-service .our-service-main {
+  display: flex;
+  flex-direction: column;
+}
+.our-service .our-service-main .text-center {
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+}
+.our-service .our-service-main .text-center h3 {
+  color: rgb(125, 121, 121);
+  font-size: 20px;
+}
+.our-service .our-service-main .text-center h2 {
+  font-size: 40px;
+}
+.our-service .our-service-main .our-service-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.our-service .our-service-main .our-service-items .items {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+.our-service .our-service-main .our-service-items .items .oo {
+  color: rgb(255, 94, 0);
+  font-size: 30px;
+  margin-right: 30px;
+}
+.our-service .our-service-main .our-service-items .items .text {
+  color: rgb(125, 121, 121);
+}
+.our-service .our-service-main .our-service-items .items .text button {
+  color: rgb(255, 94, 0);
+  background-color: transparent;
+  border: none;
+}
+.our-service .our-service-main .our-service-items .items .text button:hover {
+  color: rgb(135, 76, 4);
+}
+
+.people-say {
+  height: 800px;
+}
+.people-say .text-center {
+  text-align: center;
+  margin-top: 50px;
+}
+.people-say .text-center h3 {
+  font-size: 20px;
+}
+.people-say .text-center h2 {
+  font-size: 40px;
+}
+.people-say .testimonial-wrap {
+  width: 60%;
+  margin: auto;
+}
+.people-say .testimonial-wrap .testimonial {
+  margin-top: 50px;
+  text-align: center;
+}
+.people-say .testimonial-wrap .testimonial figure img {
+  width: 30%;
+  border-radius: 50%;
+}
+.people-say .testimonial-wrap .testimonial h5 {
+  color: rgb(125, 121, 121);
+  font-size: 25px;
+}
+
+.blog {
+  background-color: white;
+}
+.blog .blog-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.blog .blog-wrap .blog-title {
+  text-align: center;
+  margin-top: 100px;
+}
+.blog .blog-wrap .blog-title h3 {
+  color: rgb(125, 121, 121);
+}
+.blog .blog-wrap .blog-title h2 {
+  font-size: 35px;
+}
+.blog .blog-wrap .person-wrap {
+  margin-top: 50px;
+}
+.blog .blog-wrap .person-wrap .person-main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.blog .blog-wrap .person-wrap .person-main .person {
+  width: 25%;
+  margin-left: 6%;
+  justify-content: center;
+}
+.blog .blog-wrap .person-wrap .person-main .person img {
+  width: 100%;
+  border-radius: 5px;
+}
+.blog .blog-wrap .person-wrap .person-main .person h2 a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.blog .blog-wrap .person-wrap .person-main .person .person-position {
+  color: rgb(215, 213, 211);
+}
+.blog .blog-wrap .person-wrap .person-main .person .person-position .button {
+  color: rgb(255, 94, 0);
+  background-color: transparent;
+  border: none;
+}
+.blog .blog-wrap .person-wrap .person-main .person .person-position .button:hover {
+  color: rgb(135, 76, 4);
+}
+.blog .blog-wrap .person-wrap .person-main .person .icon {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.contact-form {
+  background-color: white;
+}
+.contact-form .contact-form-main {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form .contact-form-main .contact-form-title {
+  text-align: center;
+  margin-top: 100px;
+}
+.contact-form .contact-form-main .contact-form-title h3 {
+  color: rgb(125, 121, 121);
+}
+.contact-form .contact-form-main .contact-form-title h2 {
+  font-size: 35px;
+}
+.contact-form .contact-form-main .contact-form-wrap {
+  margin: auto;
+}
+.contact-form .contact-form-main .contact-form-wrap h2 {
+  font-size: 30px;
+}
+.contact-form .contact-form-main .contact-form-wrap .contact-form1 {
+  display: flex;
+  flex-direction: row;
+}
+.contact-form .contact-form-main .contact-form-wrap .contact-form1 .contact-form1_1 {
+  margin-left: 20px;
+  width: 500x;
+  height: 100px;
+}
+.contact-form .contact-form-main .contact-form-wrap .contact-form1 .contact-form1_1 .text-black {
+  font-size: 20px;
+}
+.contact-form .contact-form-main .contact-form-wrap .contact-form1 .contact-form1_1 input {
+  width: 350px;
+  height: 50px;
+}/*# sourceMappingURL=style.css.map */

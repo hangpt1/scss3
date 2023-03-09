@@ -1,0 +1,38 @@
+.contact{
+    height: 70px;
+    background-color: rgb(250, 248, 248);
+    display: flex;
+    flex-direction: row;
+    .text-left{
+        height: 70px;
+        width: 30%;
+        .social-media{
+            display: flex;
+            list-style-type: none;
+            font-size: 30px;
+            justify-content: center;
+            margin-top: 10px;
+            li{
+                margin-left: 20px;
+            }
+        }
+    }
+    .phone_email{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        
+        p{
+            margin-left: 30px;
+            margin-top: 25px;
+            span{
+                color:$orange;
+                font-size: 10px;
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}

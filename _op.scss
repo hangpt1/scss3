@@ -1,0 +1,84 @@
+.our_products{
+    background-color: white;
+    .our_products_main{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        .title_our_products{
+            text-align: center;
+            word-spacing: 0.1px;
+            width: 40%;
+            margin: auto;
+            h3{
+                color: $xam;
+            }
+            h2{
+                font-size: 40px;
+            }
+            p{
+                color: $xam;
+            }
+        }
+        .sp-wrap{
+            width: 90%;
+            margin: auto;
+            margin-top: 50px;
+            padding-bottom: 100px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            .sp{
+                figure{
+                    img{
+                        width: 100%;
+                    }
+
+                }
+                .sp_main{
+                    text-align: center;
+                    h3{
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                    p{
+                        text-decoration: none;
+                        color:$xam;
+                        font-size: 14px;
+                        span{
+                            color:$orange ;
+                            
+                            &:hover{
+                                color: rgb(40, 30, 219);
+                            }
+                        }
+                    }
+                    .button1{
+                        @mixin cart-view{
+                            border: 2px solid black;
+                            width: 80px;
+                            height: 35px;
+                        }
+                        .cart{
+                            background-color: black;
+                            color: white;
+                            @include cart-view;
+                            &:hover{
+                                background-color: white;
+                                color: black;
+                            }
+                        }
+                        .view{
+                            background-color: white;
+                            color: black;
+                            @include cart-view;
+                            &:hover{
+                                background-color: black;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

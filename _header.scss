@@ -1,0 +1,43 @@
+header{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 2px 5px 3px #f1efef;
+    height: 80px;
+    background-color: white;
+    .site-navbar{
+        display: flex;
+        flex-direction: row;
+        .selling{
+            width: 35%;
+            text-align: center;
+            h1{
+                font-size: 45px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .menu{
+            width: 50%;
+            .site-menu{
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+                .home{
+                    color: $orange;
+                }
+                li{
+                    list-style-type: none;
+                    width: fit-content;
+                    margin-left: 35px;
+                    a{
+                        text-decoration: none;
+                    }
+                }
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.awesome-products-wrap{
+    background-color:rgb(242, 243, 245);
+    height: 1600px;
+    .awesome-products{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        .awesome-products-main{
+            text-align: center;
+            word-spacing: 0.1px;
+            width: 40%;
+            margin: auto;
+            h3{
+                color: $xam;
+            }
+            h2{
+                font-size: 40px;
+            }
+            p{
+                color: $xam;
+            }
+        }
+        .about-products{
+            margin: auto;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            
+            .about-products-main{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                margin-top: 50px;
+                margin-left: auto;
+                height: 600px;
+                background-color: white;
+                padding: 4%;
+                
+                .about-products-img{
+                    img{
+                        width: 400px;
+                    }
+                }
+                .about-products-content{
+                    width: 100%;
+                    padding-left: 20px;
+                    .number{
+                        span{
+                            font-size: 120px;
+                            margin-left: 20px;
+                            color: rgb(235, 236, 239);
+                        }
+                    }
+                    .content{
+                        margin-top: -160px;
+                        width: 90%;
+                        margin-left: 30px;
+                        h3{
+                            font-size: 30px;
+                        }
+                        p{
+                            color: $xam;
+                        }
+                        .button2{
+                            margin-top: 50px;
+                            @mixin vd-atc{
+                                width: 250px;
+                                height: 140px;
+                            
+                            }
+                            .vd{
+                                background-color: white;
+                                color: black;
+                                border: 2px solid black;
+                                &:hover{
+                                    background-color: black;
+                                    color: white;
+                                }
+
+                            }
+                            .atc{
+                                background-color: black;
+                                color: white;
+                                border: 2px solid black;
+                                &:hover{
+                                    background-color: white;
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

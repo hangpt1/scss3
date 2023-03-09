@@ -1,0 +1,43 @@
+.summersale{
+    background-image: url("./images/hero_2.jpg");
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    .summersale-wrap{
+        h2{
+            font-size: 40px;
+        }
+        width: 50%;
+        text-align: center;
+        color: white;
+        margin: auto;
+        .clock{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            p{
+                width: 90px;
+                height: 120px;
+                border-radius: 5px;
+                background-color: aliceblue;
+                color: $xam;
+                margin-left: 20px;
+                span{
+                    font-size: 60px;
+                    color: rgb(82, 164, 119);
+                }
+            }
+        }
+        button{
+            background-color: transparent;
+            border: 2px solid white;
+            color: aliceblue;
+            width: 130px;
+            height: 50px;
+            &:hover{
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}

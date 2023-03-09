@@ -1,0 +1,31 @@
+.form-wrap{
+    background: url("./images/hero_2.jpg") rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    height: 500px;
+    .form{
+        display: flex;
+        flex-direction: row;
+        .main-form{
+            width: 55%;
+            margin-left: 20%;
+            color: white;
+            margin-top: 10%;
+            text-align: center;
+            @mixin text-submit{
+                border: 2.5px solid white;
+                background-color: transparent;
+                height: 50px;
+            }
+            .text{
+                @include text-submit;
+                width: 600px;
+                color: aliceblue;
+            }
+            .submit{
+                @include text-submit;
+                width: 150px;
+                color: aliceblue;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.contact-form{
+    background-color: white;
+    .contact-form-main{
+        display: flex;
+        flex-direction: column;
+        .contact-form-title{
+            text-align: center;
+            margin-top: 100px;
+            h3{
+                color: $xam;
+            }
+            h2{
+                font-size: 35px;
+            }
+        }
+        .contact-form-wrap{
+            margin: auto;
+            h2{
+                font-size: 30px;
+            }
+            .contact-form1{
+                display: flex;
+                flex-direction: row;
+                .contact-form1_1{
+                    margin-left: 20px;
+                    width: 500x;
+                    height: 100px;
+                    .text-black{font-size: 20px;
+                    }
+                    input{
+                        width: 350px;
+                        height: 50px;
+                    }
+
+                }
+               
+            }
+        }
+    }
+}
